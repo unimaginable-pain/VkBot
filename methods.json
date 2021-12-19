@@ -1,5 +1,6 @@
 [
 	{
+		"comment": "Example function",
 		"type": "request-responce",
 		"command": "glovecasecost",
 		"function": {

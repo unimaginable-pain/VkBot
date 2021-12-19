@@ -5,7 +5,6 @@ from optparse import OptionParser
 from configparser import ConfigParser
 import os
 from classes import *
-from methods import *
 
 # option parser
 parser = OptionParser()

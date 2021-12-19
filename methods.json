@@ -1,0 +1,16 @@
+[
+	{
+		"type": "request-responce",
+		"command": "glovecasecost",
+		"function": {
+			"type": "web-get",
+			"url": "https://steamcommunity.com/market/priceoverview/?appid=730&currency=5&market_hash_name=Glove%20Case",
+			"result_json": true,
+			"json_layers": 1,
+			"json_domains": [
+				"lowest_price"
+			]
+		},
+		"responce_text": "Текущая цена перчаточного кейса: {0}"
+	}
+]
